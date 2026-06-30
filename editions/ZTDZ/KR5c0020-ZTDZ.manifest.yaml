@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0020/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0020/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 皇天上清金闕帝君靈書紫文上經
+  date: '2015-08-29 00:16:46.020556'
+  source:
+    repository: kanripo
+    path: KR5c0020
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0020_000-ZTDZ.yaml, hash: 'sha256:064ccc92afc637536184458c92a893c401369219de674a8ba2a9e101fbf4c33b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0020_000-ZTDZ.markers.yaml, hash: 'sha256:37b2c3a03286cd475d96ee650945b7f42a2f59c19edea0eb0e763f4bc4814af9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0020_SJB_000-110380c
+    span:
+    - body
+    - 0
+    - 3962
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:724a5837aed547d38eaa09fd9fe08f7b941b3fecf89404e8d5c55d3bb56cf0ec
